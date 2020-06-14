@@ -1,3 +1,10 @@
+# Score: 
+# Comments: 15/25
+# You seem to be ocnfised between defining and using a function
+# e.g., Incorrect ":" in line 24
+# Tried fixing several things but couldn't get it to run
+# Also don't really see how "value" would preserve dice 
+
 import random
 
 def roll_dice():
@@ -21,9 +28,9 @@ for i in range(3):
     if value == -99:
         break
     else:
-        roll_dice():
+        roll_dice() # TAA ":" commented out
     
-        def display_dice(dice):
+        display_dice():
         die1, die2, die3, die4, die5 = dice
         print(f'{die1} {die2} {die3} {die4} {die5}')
     
