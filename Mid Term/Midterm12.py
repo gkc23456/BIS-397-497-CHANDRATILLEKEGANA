@@ -1,3 +1,9 @@
+# Score 15/25
+# You did not create a fucntion that will calculate descriptive statistics.
+# You created a script that calls existing functiions.
+# Script was also supposed to work on any arbitrary list of numbers.
+$ You have "hard-wired" it for 6 numbers.
+
 import statistics
 
 def descriptive():
